@@ -1,0 +1,4 @@
+
+run:
+    RUST_LOG=info cargo run example.usmg.toml
+

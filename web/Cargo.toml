@@ -1,0 +1,17 @@
+[package]
+name = "usmg-web"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+assets = { package = "usmg-assets", path = "../assets", version = "0.1.0" }
+app = { package = "usmg-app", path = "../app", version = "0.1.0" }
+wasm-bindgen = "0.2.93"
+web-sys = { version = "0.3.70", features = ["HtmlImageElement", "Window", "Document", "FontFace", "HtmlCanvasElement", "HtmlStyleElement", "Performance", "CanvasRenderingContext2d"] }
+wasm-bindgen-futures = "0.4.43"
+js-sys = "0.3.70"
+console_log = { version = "1.0.0", features = ["color"] }
+log = "0.4.22"

@@ -1,0 +1,13 @@
+# Rust
+/target
+
+# Web
+/web/dist
+/web/pkg
+/web/node_modules
+
+# mprocs
+/mprocs.log
+
+# Build
+/build

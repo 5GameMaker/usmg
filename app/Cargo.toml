@@ -1,0 +1,8 @@
+[package]
+name = "usmg-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+assets = { package = "usmg-assets", path = "../assets", version = "0.1.0" }
+log = "0.4.22"

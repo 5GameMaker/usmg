@@ -1,0 +1,12 @@
+[package]
+name = "usmg"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+assets = { package = "usmg-assets", path = "../assets", version = "0.1.0" }
+app = { package = "usmg-app", path = "../app", version = "0.1.0" }
+sdl2 = "0.37.0"
+skia-safe = { version = "0.78.1", features = ["gl"] }
+gl = "0.14"
+pretty_env_logger = "0.5.0"
